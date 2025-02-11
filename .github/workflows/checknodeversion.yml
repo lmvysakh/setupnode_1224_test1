@@ -1,8 +1,7 @@
 name: Check Node Version File
-#sample
+#sample 1
 on:
-  workflow_dispatch:
-  push:
+  pull_request:
     paths:
       - 'node-version-file'
       - 'package.json'
